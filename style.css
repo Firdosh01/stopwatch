@@ -54,3 +54,8 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.buttons button.active,
+.buttons button.stopActive{
+    cursor: not-allowed;
+    opacity: 0.8;
+}
